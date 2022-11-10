@@ -1,9 +1,9 @@
 <?php
 
-    define('DB_SERVER', 'localhost');
-    define('DB_USERNAME', 'root');
-    define('DB_PASSWORD', '');
-    define('DB_NAME', 'login_tuto');
+    define('DB_SERVER', 'it-tech-database.mysql.database.azure.com');
+    define('DB_USERNAME', 'rcampos');
+    define('DB_PASSWORD', 'Alexa2022.');
+    define('DB_NAME', 'it-tech-database');
 
     $link = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
 
