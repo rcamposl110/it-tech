@@ -1,5 +1,5 @@
 <?php
-
+    mysqli_ssl_set($conn,NULL,NULL, "DigiCertGlobalRootCA.crt(3).pem", NULL, NULL);
     define('DB_SERVER', 'it-tech-database.mysql.database.azure.com');
     define('DB_USERNAME', 'rcampos');
     define('DB_PASSWORD', 'Alexa2022.');
